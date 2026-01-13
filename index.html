@@ -5,73 +5,121 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Privacy Policy - EasyPlayNest</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      color: #333;
-      line-height: 1.6;
-      margin: 40px;
+    @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap');
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      font-family: 'Comic Neue', cursive;
+      background: linear-gradient(135deg, #ffdede, #fff3cd, #d4edda);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .container {
+      background-color: #ffffffdd;
+      padding: 40px 50px;
+      border-radius: 20px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.15);
       max-width: 800px;
+      width: 90%;
+      max-height: 90vh;
+      overflow-y: auto;
     }
+
     h1 {
-      color: #2c3e50;
       text-align: center;
-      margin-bottom: 20px;
+      color: #ff6b6b;
+      margin-bottom: 10px;
+      font-size: 2em;
     }
+
+    .last-updated {
+      text-align: center;
+      font-size: 0.9em;
+      color: #555;
+      margin-bottom: 25px;
+    }
+
     h2 {
-      color: #2c3e50;
-      margin-top: 30px;
+      display: flex;
+      align-items: center;
+      color: #17a2b8;
+      margin-top: 25px;
+      margin-bottom: 10px;
+      font-size: 1.3em;
     }
-    p {
-      margin: 10px 0;
+
+    h2::before {
+      content: "🛡️"; /* أيقونة صغيرة للخصوصية */
+      margin-right: 10px;
+      font-size: 1.2em;
     }
+
+    p, li {
+      font-size: 1em;
+      line-height: 1.6;
+      margin: 8px 0;
+    }
+
     ul {
-      margin: 10px 0 10px 20px;
+      margin-left: 25px;
     }
+
     a {
-      color: #2980b9;
+      color: #ff6b6b;
+      font-weight: bold;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
-    .last-updated {
-      font-size: 0.9em;
-      color: #555;
-      text-align: center;
-      margin-bottom: 30px;
+
+    /* Scrollbar جميل */
+    .container::-webkit-scrollbar {
+      width: 8px;
+    }
+    .container::-webkit-scrollbar-track {
+      background: #f0f8ff;
+    }
+    .container::-webkit-scrollbar-thumb {
+      background-color: #17a2b8;
+      border-radius: 4px;
     }
   </style>
 </head>
 <body>
-  <h1>Privacy Policy - EasyPlayNest</h1>
-  <div class="last-updated">Last Updated: January 2026</div>
+  <div class="container">
+    <h1>Privacy Policy - EasyPlayNest</h1>
+    <div class="last-updated">Last Updated: January 2026</div>
 
-  <p><strong>Overview:</strong> EasyPlayNest takes your privacy seriously. We are committed to ensuring that our application is absolutely safe for children and protects your family's data. This policy outlines our strict privacy practices.</p>
+    <p><strong>Overview:</strong> EasyPlayNest takes your privacy seriously. We are committed to ensuring that our application is absolutely safe for children and protects your family's data. This policy outlines our strict privacy practices.</p>
 
-  <h2>1. No Data Collection (Zero Data Policy)</h2>
-  <p>We do not collect, store, share, or transmit any personal information, usage data, or metadata. The application operates 100% offline. There are no user accounts, no registration forms, and no backend servers.</p>
+    <h2>No Data Collection</h2>
+    <p>We do not collect, store, share, or transmit any personal information, usage data, or metadata. The application operates 100% offline. No user accounts, registration forms, or backend servers are used.</p>
 
-  <h2>2. No Internet Connection Required</h2>
-  <p>EasyPlayNest does not require an internet connection to function. It does not send any data to the cloud. This ensures that your child is protected from online tracking, third-party analytics, and unwanted content.</p>
+    <h2>No Internet Required</h2>
+    <p>EasyPlayNest works fully offline. No data is sent to the cloud, keeping your child safe from online tracking or third-party analytics.</p>
 
-  <h2>3. Device Permissions</h2>
-  <p>We respect your device security. The app requests only the minimum necessary permissions:</p>
-  <ul>
-    <li><strong>Storage Access (Read Only):</strong> This is required STRICTLY to allow parents to select specific local folders containing video/music files for the media player. We do not scan the device without permission and do not modify or delete your files.</li>
-  </ul>
+    <h2>Device Permissions</h2>
+    <p>The app requests only the minimum necessary permissions:</p>
+    <ul>
+      <li>📁 <strong>Storage Access (Read Only):</strong> Needed to select local folders for video/music files. We never scan or modify your device without permission.</li>
+    </ul>
 
-  <h2>4. Kids' Privacy (COPPA & GDPR)</h2>
-  <p>EasyPlayNest is designed to comply with the Children's Online Privacy Protection Act (COPPA) and GDPR. Because we do not collect any personal data whatsoever, there is no risk of data exposure. We do not use third-party advertising or analytics SDKs.</p>
+    <h2>Kids' Privacy (COPPA & GDPR)</h2>
+    <p>We comply fully with COPPA and GDPR. No personal data is collected, and we do not use third-party ads or analytics SDKs.</p>
 
-  <h2>5. No Ads or In-App Purchases</h2>
-  <p>To provide a distraction-free environment, EasyPlayNest contains NO advertisements and NO in-app purchases. There are no hidden costs or commercially motivated interruptions.</p>
+    <h2>No Ads or Purchases</h2>
+    <p>EasyPlayNest is 100% ad-free with no in-app purchases, providing a distraction-free environment.</p>
 
-  <h2>6. Local Data Only</h2>
-  <p>Any parental control settings (such as PIN codes, time limits, and activity logs) are stored securely and locally on the device's internal memory. This data is never synchronized with any external server.</p>
+    <h2>Local Data Only</h2>
+    <p>Parental control settings like PIN codes, time limits, and activity logs are stored securely on the device. No external server synchronization occurs.</p>
 
-  <h2>7. Contact Us</h2>
-  <p>If you have any questions or concerns about our privacy practices, please contact us at: 📧 <a href="mailto:support@musichouse.live">support@musichouse.live</a></p>
-
+    <h2>Contact Us</h2>
+    <p>If you have questions or concerns, contact us at: 📧 <a href="mailto:support@musichouse.live">support@musichouse.live</a></p>
+  </div>
 </body>
 </html>
